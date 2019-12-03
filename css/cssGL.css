@@ -1,0 +1,2640 @@
+@CHARSET "UTF-8";
+
+@charset "utf-8"; 
+
+.iconfont {
+	font-family: "travel_web" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: .2px;
+	-moz-osx-font-smoothing: grayscale
+}
+
+@font-face {
+	font-family: 'travel_web';
+	src:
+		url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.eot');
+	src:
+		url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.eot?#iefix')
+		format('embedded-opentype'),
+		url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.woff')
+		format('woff'),
+		url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.ttf')
+		format('truetype'),
+		url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.svg#travel_web')
+		format('svg')
+}
+
+html {
+	background-color: #fff;
+	color: #000;
+	font-size: 12px
+}
+
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,figure,form,fieldset,legend,input,textarea,button,p,blockquote,th,td,pre,xmp
+	{
+	margin: 0;
+	padding: 0
+}
+
+body,input,textarea,button,select,pre,xmp,tt,code,kbd,samp {
+	line-height: 1.5;
+	font-family: tahoma, arial, "Hiragino Sans GB", simsun, sans-serif
+}
+
+h1,h2,h3,h4,h5,h6,small,big,input,textarea,button,select {
+	font-size: 100%
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: tahoma, arial, "Hiragino Sans GB", "微软雅黑", simsun,
+		sans-serif
+}
+
+h1,h2,h3,h4,h5,h6,b,strong {
+	font-weight: normal
+}
+
+address,cite,dfn,em,i,optgroup,var {
+	font-style: normal
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left
+}
+
+caption,th {
+	text-align: inherit
+}
+
+ul,ol,menu {
+	list-style: none
+}
+
+fieldset,img {
+	border: 0
+}
+
+img,object,input,textarea,button,select {
+	vertical-align: middle
+}
+
+article,aside,footer,header,section,nav,figure,figcaption,hgroup,details,menu
+	{
+	display: block
+}
+
+audio,canvas,video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: "\0020"
+}
+
+textarea {
+	overflow: auto;
+	resize: vertical
+}
+
+input,textarea,button,select,a {
+	outline: 0 none
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+	padding: 0;
+	border: 0
+}
+
+mark {
+	background-color: transparent
+}
+
+a,ins,s,u,del {
+	text-decoration: none
+}
+
+sup,sub {
+	vertical-align: baseline
+}
+
+.clr,.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+
+.clrfix {
+	zoom: 1
+}
+
+.clrfix:after {
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	content: "."
+}
+
+.fl {
+	float: left;
+	display: inline
+}
+
+.fr {
+	float: right;
+	display: inline
+}
+
+.bold {
+	font-weight: 700
+}
+
+.yahei {
+	font-family: "microsoft yahei"
+}
+
+.orange {
+	color: #f60
+}
+
+.blue {
+	color: #0069ca
+}
+
+.green {
+	color: #84be3c
+}
+
+.f12 {
+	font-size: 12px;
+	line-height: 18px
+}
+
+.f14 {
+	font-size: 14px;
+	line-height: 22px
+}
+
+.hide {
+	display: none
+}
+
+.hidden {
+	visibility: hidden
+}
+
+.more:hover,.link:hover {
+	color: #f60;
+	text-decoration: none
+}
+
+.qn_page {
+	clear: both;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #fff
+}
+
+.qn_page_expand {
+	position: relative;
+	width: 100%;
+	height: 1%;
+	background-color: #fff;
+	overflow: hidden
+}
+
+.qn_page_container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 1920px;
+	height: inherit;
+	margin-left: -960px
+}
+
+.qn_page a {
+	color: #0069ca;
+	text-decoration: none
+}
+
+.qn_page a:hover {
+	color: #f60;
+	text-decoration: none
+}
+
+.qn_page a:active {
+	background-color: transparent
+}
+
+.qn_home {
+	position: relative;
+	clear: both;
+	width: 100%;
+	background-color: #fff
+}
+
+.qn_home a:hover {
+	color: #3cb0d0
+}
+
+.qn_home a.more {
+	color: #0084bb;
+	text-decoration: none
+}
+
+.more:hover,.link:hover {
+	color: #3cb0d0;
+	text-decoration: none
+}
+
+.c66 {
+	color: #666
+}
+
+.c33 {
+	color: #333
+}
+
+.c99 {
+	color: #999
+}
+
+.bgff {
+	padding-bottom: 35px
+}
+
+.bgcc {
+	background-color: #f4f4f4
+}
+
+.margin_top {
+	border-top: 1px solid #EEE
+}
+
+.wrap {
+	position: relative;
+	margin: 0 auto;
+	padding: 35px 0 0;
+	width: 1200px
+}
+
+.lf {
+	float: left
+}
+
+.rt {
+	float: right
+}
+
+.title h2 {
+	font-size: 26px;
+	font-family: "Microsoft YaHei";
+	color: #333
+}
+
+.title ul {
+	position: relative;
+	top: 18px
+}
+
+.title ul .vline {
+	position: relative;
+	border-left: 1px solid #CCC
+}
+
+.title_tab {
+	position: relative;
+	display: inline-block;
+	*display: inline;
+	height: 26px;
+	padding: 0 17px;
+	line-height: 26px;
+	color: #666;
+	zoom: 1
+}
+
+.title_item .i_hot {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 24px;
+	height: 11px;
+	overflow: hidden;
+	font-size: 0;
+	background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/icon_hot.gif")
+		no-repeat 0 0
+}
+
+.current .title_tab:link,.current .title_tab:visited,.current .title_tab:hover,.current .title_tab:active
+	{
+	background-color: #3cb0d0
+}
+
+.current .title_tab {
+	background-color: #3cb0d0;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0 20px;
+	margin-left: -6px;
+	*position: relative;
+	*left: -6px
+}
+
+.current a:hover {
+	color: #fff
+}
+
+.qn_recommend ul .current {
+	position: relative
+}
+
+.note_vline {
+	padding: 0 7px;
+	font-family: "simsun";
+	color: #ccc
+}
+
+.tit_vline {
+	display: inline;
+	position: relative;
+	left: -3px;
+	font-family: "SimSun";
+	color: #ccc
+}
+
+.qn_recommend .current .tit_vline,.note_lt .current .tit_vline {
+	position: relative;
+	left: -8px;
+	color: #3cb0d0
+}
+
+.note_lt .current .tit_vline {
+	left: -8px
+}
+
+.note_lt .title .title_item {
+	float: left
+}
+
+.note_lt .title .goods {
+	padding-right: 7px
+}
+
+.note_lt .b-dest-tab {
+	clear: both;
+	height: 38px;
+	overflow: hidden;
+	margin: 19px 0 0;
+	border: solid 1px #dfdfdf;
+	line-height: 38px
+}
+
+.note_lt .b-dest-tab dt {
+	float: left;
+	width: 80px;
+	background-color: #f4f4f4;
+	font-size: 14px;
+	color: #999;
+	text-align: center
+}
+
+.b-dest-tab dd {
+	margin-left: 81px;
+	height: 38px;
+	overflow: hidden
+}
+
+.b-dest-tab dd a {
+	float: left;
+	margin-left: 29px;
+	*display: inline;
+	white-space: nowrap
+}
+
+.b-dest-tab dd a:link,.b-dest-tab dd a:visited {
+	color: #666
+}
+
+.b-dest-tab dd a:hover {
+	color: #3cb0d0
+}
+
+.b-dest-tab dd .cur:link,.b-dest-tab dd .cur:visited,.b-dest-tab dd .cur:hover
+	{
+	font-weight: bold;
+	color: #3cb0d0
+}
+
+.gyl_li .city_name span,.around_item .city_name .name,.qn_recommend .city_name .name
+	{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/tit_bg.png")
+		repeat-x 0 0;
+	_background-color: #000;
+	_filter: alpha(Opacity = 50);
+	cursor: pointer
+}
+
+.qn_recommend .city_name .name {
+	bottom: 36px;
+	font-size: 20px
+}
+
+.qn_recommend .current {
+	border-left: 0
+}
+
+.qn_recommend .list {
+	margin-left: -20px;
+	margin-top: 10px;
+	height: 433px;
+	overflow: hidden;
+	*position: relative
+}
+
+.kind .list_small,.kind .list_big {
+	position: relative;
+	margin: 20px 0 0 20px;
+	background-color: #fff
+}
+
+.list_big {
+	width: 468px
+}
+
+.list_small {
+	width: 224px
+}
+
+.qn_recommend .detail {
+	position: relative;
+	text-align: center;
+	line-height: 36px;
+	height: 36px;
+	overflow: hidden
+}
+
+.qn_recommend .city_name {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center
+}
+
+.qn_around {
+	position: relative
+}
+
+.qn_around .wrap {
+	padding-bottom: 45px
+}
+
+.qn_around .more {
+	position: absolute;
+	z-index: 100;
+	right: 0;
+	top: 55px
+}
+
+.qn_around .list {
+	margin: 20px 0 0 -20px;
+	height: 170px;
+	overflow: hidden;
+	_margin-left: -40px;
+	*margin-top: 0;
+	*padding-top: 25px;
+	*position: relative;
+	zoom: 1;
+	clear: both
+}
+
+.qn_around .around_item {
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	overflow: hidden
+}
+
+.qn_around .city_name .name {
+	font-size: 20px;
+	_width: 224px;
+	bottom: 0
+}
+
+.qn_recommend .city_name img,.qn_around .city_name img {
+	vertical-align: bottom
+}
+
+.note_lt {
+	width: 880px
+}
+
+.note_rt {
+	width: 225px
+}
+
+.note_ul {
+	position: relative;
+	overflow: hidden
+}
+
+.note_li {
+	position: relative;
+	top: 1px;
+	padding: 25px 0 20px 65px;
+	border-bottom: 1px dashed #e5e5e5;
+	overflow: hidden
+}
+
+.note_li .face {
+	position: absolute;
+	left: 0;
+	_left: -60px
+}
+
+.note_li .face .imgf {
+	border-radius: 25px
+}
+
+.more_youji {
+	padding: 0 0 0 16px
+}
+
+.note_tit .detit {
+	float: left
+}
+
+.note_li .place {
+	white-space: nowrap
+}
+
+.note_tit h2 {
+	font-size: 18px;
+	line-height: 27px
+}
+
+.flag {
+	display: block;
+	margin: 3px 10px
+}
+
+.jh {
+	background-image:
+		url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -13px -46px;
+	width: 55px;
+	height: 21px
+}
+
+.gh {
+	background-image:
+		url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -13px -2px;
+	width: 55px;
+	height: 20px
+}
+
+.dtp {
+	background-image:
+		url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -8px -24px;
+	width: 66px;
+	height: 20px
+}
+
+.mt {
+	background-image:
+		url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -13px -69px;
+	width: 55px;
+	height: 20px
+}
+
+.wyf {
+	background-image:
+		url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -8px -91px;
+	width: 66px;
+	height: 20px
+}
+
+.note_name,.visit {
+	color: #0084bb;
+	margin-right: 8px
+}
+
+.note_name:hover {
+	color: #3cb0d0
+}
+
+.person {
+	margin: 8px 0;
+	position: relative
+}
+
+.person .nums {
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+
+.person .nums .numTab {
+	float: left;
+	margin-left: 12px;
+	font-family: "Microsoft YaHei";
+	color: #999
+}
+
+.person .nums .numTab .iconfont {
+	position: relative;
+	margin-right: 2px;
+	top: 3px;
+	color: #ccc
+}
+
+.cont_dl {
+	line-height: 24px;
+	overflow: hidden
+}
+
+.aline {
+	margin: 0 7px
+}
+
+.cont_dl dd {
+	float: left
+}
+
+.imgul {
+	margin: 15px 0 0 -5px;
+	height: 150px;
+	overflow: hidden;
+	*margin-left: -10px
+}
+
+.imgli {
+	float: left;
+	margin-left: 5px
+}
+
+.icon_num {
+	width: 23px;
+	height: 19px;
+	background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/nav_mix2.png")
+		no-repeat -99px -59px
+}
+
+.scan {
+	background-position: -1px -1px
+}
+
+.love {
+	background-position: -1px -21px
+}
+
+.mark {
+	background-position: -1px -41px
+}
+
+.icon_total {
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	background-image:
+		url("//source.qunarzz.com/site/images/travel/home/icon_nav_total.png")
+}
+
+.img_book {
+	margin-top: 15px;
+	padding: 11px;
+	width: 200px;
+	height: 282px;
+	border: 1px solid #e1e1e1
+}
+
+.img_book a {
+	display: block
+}
+
+.book .detail {
+	margin-top: 15px;
+	line-height: 23px
+}
+
+.book .detail .imgf {
+	border-radius: 25px;
+	margin: 0 10px 5px 0
+}
+
+.book .author,.book .author_name {
+	display: block;
+	font-size: 14px;
+	line-height: 25px
+}
+
+.book .author_name {
+	width: 42px
+}
+
+.book .btn_down {
+	display: block;
+	margin-top: 15px;
+	width: 224px;
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+	background-color: #3cb0d0;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	text-align: center
+}
+
+.book a.btn_down:hover {
+	color: #fff
+}
+
+.more {
+	position: relative;
+	top: 10px;
+	font-size: 12px
+}
+
+.book {
+	margin-top: -32px
+}
+
+.gyl .book {
+	margin-top: -40px
+}
+
+.note_rt .title {
+	margin-top: 30px
+}
+
+.note_rt .title h2 {
+	font-size: 20px
+}
+
+.weixin .detail {
+	margin-top: 15px
+}
+
+.weixin .erCode {
+	margin-right: 15px;
+	line-height: 18px
+}
+
+.zhuang_ul {
+	margin-left: -20px;
+	margin-top: 20px;
+	padding-bottom: 40px;
+	height: 170px;
+	overflow: hidden
+}
+
+.zhuanti {
+	zoom: 1
+}
+
+.zhuan_li {
+	float: left;
+	margin-left: 20px;
+	_margin-left: 10px;
+	padding-bottom: 40px
+}
+
+.place_index .kind {
+	margin-top: 15px
+}
+
+.place_index .tit {
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	color: #333;
+	margin: 0 0 10px
+}
+
+.place_index .tit .more {
+	font-family: "simsun"
+}
+
+.place_index .list_place {
+	float: left;
+	width: 96px;
+	height: 25px;
+	line-height: 25px;
+	color: #666;
+	overflow: hidden
+}
+
+.place_index .icon {
+	display: block;
+	width: 4px;
+	height: 18px;
+	background-color: #3cb0d0;
+	margin-right: 10px;
+	margin-top: 5px
+}
+
+.gyl_ul {
+	overflow: hidden;
+	margin-left: -20px;
+	margin-top: 20px
+}
+
+.gyl_li {
+	float: left;
+	width: 469px;
+	margin-left: 20px;
+	overflow: hidden;
+	_margin-left: 10px
+}
+
+.first_ie6 {
+	_margin-left: 0
+}
+
+.gyl_li .city_name {
+	position: relative;
+	display: block;
+	height: 140px;
+	overflow: hidden
+}
+
+.gyltab {
+	width: 102%;
+	_width: 100%
+}
+
+.gyltab_li {
+	float: left;
+	background-color: #f4f4f4;
+	width: 155px;
+	height: 40px;
+	color: #666;
+	text-align: center;
+	border-bottom: 1px solid #e8e8e8;
+	line-height: 40px;
+	*line-height: 30px
+}
+
+.gyltab .mid {
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8
+}
+
+.gylcont {
+	position: relative;
+	border: 1px solid #f0f0f0;
+	border-top: 0;
+	height: 187px
+}
+
+.mid {
+	border-width: 0 1px 1px
+}
+
+.gyltab_a {
+	display: block;
+	font-size: 15px;
+	font-family: "microsoft yahei";
+	color: #666
+}
+
+.gyltab .current a,.gyltab .current a:hover {
+	color: #333
+}
+
+.note_rt .gyltab_a {
+	color: #999;
+	font-family: "SimSun";
+	font-size: 12px
+}
+
+.note_rt .gyltab .current a,.note_rt .gyltab .current a:hover {
+	color: #666
+}
+
+.gyltab .current {
+	background-color: #fff;
+	border-bottom-width: 0
+}
+
+.gyltab_cont {
+	position: relative;
+	padding: 20px 10px 10px 20px;
+	line-height: 24px;
+	font-size: 14px
+}
+
+.gyltab_cont a {
+	color: #666
+}
+
+.gyltab_cont a:hover {
+	color: #3cb0d0
+}
+
+.tab_li {
+	height: 24px;
+	overflow: hidden
+}
+
+.cut .tab_li {
+	float: left;
+	width: 50%;
+	*width: 48%
+}
+
+.tab_ul {
+	position: relative
+}
+
+.tab_ul .txtrt {
+	position: absolute;
+	bottom: -20px;
+	right: 0
+}
+
+.point {
+	padding-right: 5px
+}
+
+.txtrt {
+	font-size: 12px;
+	text-align: right
+}
+
+.txtmore {
+	color: #999
+}
+
+.gyl {
+	position: relative;
+	z-index: 100;
+	overflow: visible;
+	margin-top: 30px;
+	zoom: 1
+}
+
+.gyl .note_lt {
+	width: 960px
+}
+
+.gyl .font_sun {
+	font-family: "simsun";
+	padding-left: 2px
+}
+
+.facebg {
+	position: relative;
+	margin-top: 20px;
+	background-color: #3cb0d0;
+	height: 140px;
+	text-align: center
+}
+
+.facebg img {
+	width: 70px;
+	height: 70px;
+	margin: 12px 0 0;
+	vertical-align: top;
+	border: 2px solid #fff;
+	border-radius: 37px
+}
+
+.face_name {
+	padding-top: 8px;
+	color: #fff;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	text-align: center;
+	line-height: 22px
+}
+
+.face_name a.space {
+	text-decoration: blink
+}
+
+.user_name_icon {
+	display: inline-block;
+	margin-right: 8px;
+	width: 66px;
+	height: 18px;
+	vertical-align: middle;
+	background: url("//s.qunarzz.com/travel/home/smart_traveler.png")
+		no-repeat 0 0
+}
+
+.home_list {
+	margin-left: -13px;
+	margin-right: 18px
+}
+
+.facebg .no_login {
+	padding-top: 14px
+}
+
+.face_name a,.face_name a:hover {
+	text-decoration: underline;
+	display: inline;
+	margin: 0 3px;
+	color: #fff
+}
+
+.facebg .points {
+	color: #fff;
+	line-height: 18px
+}
+
+.points a,.points a:hover {
+	padding-left: 8px;
+	color: #8edff5
+}
+
+.face_tip {
+	position: absolute;
+	top: 31px;
+	right: 22px;
+	width: 150px;
+	height: 33px;
+	line-height: 17px;
+	padding: 10px 20px 10px 10px;
+	color: #f93;
+	background-color: #fffee1;
+	border: 1px solid #ffddbe;
+	text-align: left
+}
+
+.comment_tip {
+	position: absolute;
+	top: -25px;
+	right: -27px;
+	width: 96px;
+	height: 25px;
+	line-height: 24px;
+	padding: 0 5px;
+	font-size: 12px;
+	color: #f93;
+	background-color: #fffee1;
+	border: 1px solid #ffddbe
+}
+
+.face_tip .spe {
+	margin-left: 5px;
+	display: inline;
+	color: #09c
+}
+
+.face_tip .btn_clo {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 19px;
+	height: 19px;
+	line-height: 16px;
+	background-color: #f0f0f0;
+	color: #666;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 10px
+}
+
+.face_tip .bottom_arrow {
+	position: absolute;
+	bottom: -21px;
+	left: 76px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	border-width: 10px 8px;
+	border-color: #ffddbe transparent transparent;
+	border-style: solid dashed dashed
+}
+
+.face_tip .bottom_arrow span {
+	position: absolute;
+	top: -12px;
+	left: -8px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	border-width: 10px 8px 0;
+	border-color: #fffee1 transparent transparent;
+	border-style: solid dashed dashed;
+	overflow: hidden
+}
+
+.plan .gyltab_li {
+	width: 73px;
+	height: 60px
+}
+
+.plan_num {
+	display: block;
+	height: 22px;
+	font-size: 20px;
+	font-family: "Microsoft YaHei"
+}
+
+.gyltab .current .plan_num,.gyltab .current a:hover .plan_num {
+	color: #3cb0d0
+}
+
+.disable {
+	cursor: default
+}
+
+.disable a:hover {
+	color: #999;
+	cursor: default
+}
+
+.disable a:hover .plan_num {
+	cursor: default;
+	color: #999
+}
+
+.plan .mid {
+	width: 75px
+}
+
+.gyltab_cont h2 {
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	line-height: 28px
+}
+
+.gyl .wrap {
+	padding: 0;
+	margin: 0 auto
+}
+
+.gyl .note_rt .title {
+	margin-top: 49px
+}
+
+.gyltab_cont .comment .tab_li {
+	font-size: 12px
+}
+
+.gyltab_cont .comment .tit a {
+	font-size: 12px;
+	color: #999
+}
+
+.gyltab_cont .unlogin {
+	text-align: center;
+	margin-top: 20px
+}
+
+.gyltab_cont .unlogin a {
+	color: #0084bb
+}
+
+.gyltab_cont .unlogin a:hover {
+	color: #3cb0d0
+}
+
+.cont_num {
+	background-image:
+		url(//source.qunarzz.com/site/images/travel/home/v14/nav_mix2.png);
+	display: block;
+	float: left;
+	width: 25px;
+	height: 20px
+}
+
+.b_paging {
+	padding: 20px 0;
+	color: #666;
+	font: 14px tahoma, Arial;
+	text-align: center;
+	line-height: 28px
+}
+
+.b_paging a,.b_paging em {
+	display: inline;
+	height: 18px;
+	padding: 3px 7px 3px 8px;
+	border: 1px solid #e0e0e0;
+	color: #666;
+	margin-right: 6px;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: center
+}
+
+.b_paging a:hover {
+	color: #666;
+	border: 1px solid #3cb0d0;
+	background-color: #fafafa
+}
+
+.b_paging .cur {
+	color: #fff;
+	border: 1px solid #1badb6;
+	background-color: #3cb0d0
+}
+
+.b_paging em {
+	color: #fff;
+	border: 1px solid #3cb0d0;
+	background-color: #3cb0d0;
+	font-weight: bold
+}
+
+.ajaxloading {
+	background: #fcfcfc
+		url(//source.qunarzz.com/apt_q_web/common/icon-loading.gif) 50% 50%
+		no-repeat
+}
+
+@media screen and (max-width:1221px) {
+	.wrap,.qn_ad img {
+		width: 956px
+	}
+	.note_lt,.gyl .note_lt {
+		width: 715px
+	}
+	.gyl_li {
+		width: 345px
+	}
+	.gyl_ul img {
+		margin-left: -61px
+	}
+	.gyltab_li {
+		width: 113px
+	}
+	.mid {
+		width: 115px
+	}
+	.cut .tab_li {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 150px;
+		padding-right: 5px
+	}
+}
+
+.w956 .wrap,.w956 .qn_ad img {
+	width: 956px
+}
+
+.w956 .note_lt,.w956 .gyl .note_lt {
+	width: 715px
+}
+
+.w956 .gyl_li {
+	width: 345px
+}
+
+.w956 .gyl_li .city_name {
+	width: 345px
+}
+
+.w956 .gyl_ul img {
+	margin-left: -61px
+}
+
+.w956 .gyltab_li {
+	width: 113px
+}
+
+.w956 .plan .gyltab_li {
+	width: 73px;
+	height: 60px
+}
+
+.w956 .mid {
+	width: 115px
+}
+
+.w956 .cut .tab_li {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 150px;
+	padding-right: 5px
+}
+
+#js_sliderWrap {
+	height: 400px
+}
+
+.b_slide_mini {
+	position: relative;
+	overflow: hidden;
+	background: #f5f5f5
+}
+
+.b_slide_mini .b_slide {
+	width: 956px;
+	margin: 0 auto
+}
+
+.qn_around .title {
+	position: relative;
+	z-index: 100
+}
+
+.select {
+	position: relative;
+	top: 9px;
+	width: 94px;
+	height: 24px;
+	margin-left: 20px;
+	border: 1px solid #e8e8e8;
+	background-color: #fff
+}
+
+.select .inp {
+	display: block;
+	float: left;
+	background-color: #fff;
+	padding: 4px 10px 5px;
+	width: 50px;
+	height: 14px;
+	color: #333;
+	border: 0;
+	outline: 0;
+	box-sizing: content-box
+}
+
+.select .arrow {
+	float: left;
+	padding: 12px 7px 4px;
+	cursor: pointer;
+	border: 1px solid #e8e8e8;
+	border-width: 0 0 0 1px
+}
+
+.select .down {
+	display: block;
+	border: 4px solid #999;
+	border-color: #999 #fff #fff #fff
+}
+
+.select .opt {
+	position: absolute;
+	padding: 10px 0 10px 10px;
+	font-size: 12px;
+	top: 25px;
+	width: 384px;
+	list-style: none;
+	border: 1px solid #63c3d6;
+	background-color: #fff
+}
+
+.select .opt_item {
+	float: left;
+	width: 48px;
+	line-height: 30px;
+	cursor: pointer
+}
+
+.opt_item a,.opt_item a:hover {
+	display: block;
+	color: #333;
+	text-decoration: none
+}
+
+.opt_item a:hover,.opt_item a.current {
+	color: #3cb0d0
+}
+
+.select div.cur {
+	box-shadow: 0 0 4px #009fbe
+}
+
+.b_slide {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%
+}
+
+.b_slide .box {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 400px
+}
+
+.b_slide .box_b {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	height: 400px;
+	margin: 0 auto
+}
+
+.b_slide .pics {
+	height: 400px;
+	width: 800%;
+	overflow: hidden;
+	background-color: #fff
+}
+
+.b_slide .item {
+	position: relative;
+	float: left;
+	width: 749px;
+	height: 400px;
+	overflow: hidden;
+	margin-left: 1px;
+	margin-right: 1px
+}
+
+.b_slide .item .txt_box_bg {
+	display: none;
+	position: absolute;
+	top: 240px;
+	left: 20px;
+	z-index: 5;
+	width: 320px;
+	height: 126px;
+	background-color: #000;
+	opacity: .4;
+	filter: alpha(opacity = 40);
+	-ms-filter: alpha(opacity = 40)
+}
+
+.b_slide .item .txt_box {
+	position: absolute;
+	top: 250px;
+	left: 35px;
+	width: 295px;
+	z-index: 10
+}
+
+.b_slide .txt_box .txt {
+	overflow: hidden;
+	color: #fff;
+	font-size: 20px;
+	line-height: 26px;
+	font-family: "microsoft yahei"
+}
+
+.b_slide .txt_box a:link,.b_slide .txt_box a:visited,.b_slide .txt_box a:hover,.b_slide .txt_box a:active
+	{
+	color: #fff
+}
+
+.b_slide .txt_box .author {
+	color: #fff;
+	line-height: 40px;
+	margin-top: 8px
+}
+
+.b_slide .txt_box .head {
+	width: 40px;
+	height: 40px;
+	float: left;
+	display: inline;
+	margin-right: 7px
+}
+
+.b_slide .head .img {
+	border-radius: 20px
+}
+
+.dot_box {
+	position: relative;
+	z-index: 999;
+	width: 80%;
+	height: 23px;
+	padding-top: 15px;
+	margin: 0 auto -38px;
+	text-align: center;
+	font-size: 0;
+	line-height: 0
+}
+
+.dot_box .dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	zoom: 1;
+	background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/nav_mix2.png")
+		no-repeat 0 -90px
+}
+
+.dot_box .cur {
+	background-position: -20px -90px
+}
+
+.b_slide .pre_btn,.b_slide .next_btn {
+	position: absolute;
+	top: 150px;
+	z-index: 3;
+	display: block;
+	width: 40px;
+	height: 80px;
+	background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/pre_next.png")
+		no-repeat 0 0;
+	_background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/nav_mix2.png")
+		no-repeat 0 0;
+	cursor: pointer
+}
+
+.b_slide .next_btn {
+	right: 0;
+	background-position: -50px 0
+}
+
+@media screen and (max-width:1221px) {
+	.b_slide .box {
+		background-color: #f4f4f4
+	}
+	.b_slide .box_b {
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto
+	}
+	.b_slide .pics {
+		position: relative
+	}
+	.b_slide .pics .cur {
+		display: block
+	}
+	.b_slide .dot_box {
+		width: 432px
+	}
+	.b_slide .pre_btn,.b_slide .next_btn {
+		display: none
+	}
+}
+
+.w956 .b_slide .box {
+	background-color: #f4f4f4
+}
+
+.w956 .b_slide .box_b {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto
+}
+
+.w956 .b_slide .pics {
+	position: relative
+}
+
+.w956 .b_slide .pics .cur {
+	display: block
+}
+
+.w956 .b_slide .dot_box {
+	width: 432px
+}
+
+.w956 .b_slide .pre_btn,.w956 .b_slide .next_btn {
+	display: none
+}
+
+.b_quick_nav {
+	position: relative;
+	z-index: 2;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 0;
+	line-height: 0
+}
+
+.b_quick_nav .left_menu {
+	position: absolute;
+	z-index: 5;
+	top: -400px;
+	height: 399px;
+	width: 208px;
+	border-bottom: solid 1px #eee;
+	background-color: #fff;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	line-height: 50px;
+	zoom: 1
+}
+
+.b_quick_nav .menu {
+	width: 208px;
+	height: 255px
+}
+
+.b_quick_nav .menu .item {
+	position: relative;
+	clear: both;
+	width: 208px;
+	height: 52px;
+	font-weight: normal;
+	margin-bottom: -1px
+}
+
+.b_quick_nav .menu a {
+	display: block;
+	height: 50px;
+	width: 208px;
+	margin: 0;
+	background-color: #fff;
+	border-top: solid 1px #ebebeb;
+	border-bottom: solid 1px #ebebeb
+}
+
+.b_quick_nav .menu .first {
+	height: 51px
+}
+
+.b_quick_nav .menu .first a {
+	border-top: 0
+}
+
+.b_quick_nav .menu a:link,.b_quick_nav .menu a:visited,.b_quick_nav .menu a:hover,.b_quick_nav .menu a:active
+	{
+	color: #333
+}
+
+.b_quick_nav .item .arrow {
+	float: left;
+	width: 6px;
+	height: 50px;
+	overflow: hidden;
+	font-size: 0;
+	background-color: #fff
+}
+
+.b_quick_nav .item .ico {
+	float: left;
+	width: 24px;
+	height: 24px;
+	overflow: hidden;
+	_display: inline;
+	margin: 13px 16px 0 40px;
+	background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/nav_mix2.png")
+		no-repeat -100px -30px;
+	line-height: 0
+}
+
+.b_quick_nav .item .ico_1 {
+	background-position: -130px -30px
+}
+
+.b_quick_nav .item .ico_2 {
+	background-position: -160px -30px
+}
+
+.b_quick_nav .item .ico_3 {
+	background-position: -190px -30px
+}
+
+.b_quick_nav .item .ico_4 {
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 5px;
+	width: 120px;
+	height: 39px;
+	background:
+		url(//source.qunarzz.com/site/images/travel/home/v14/nav_traveler.png)
+		0 0 no-repeat;
+	_background:
+		url(//source.qunarzz.com/site/images/travel/home/v14/nav_traveler_png8.png)
+		0 0 no-repeat
+}
+
+.b_quick_nav .menu .cur {
+	z-index: 10;
+	vertical-align: bottom
+}
+
+.b_quick_nav .menu .cur a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 209px;
+	height: 50px;
+	border-color: #1badb6
+}
+
+.b_quick_nav .cur .arrow {
+	background-color: #1badb6
+}
+
+.b_quick_nav .left_menu .quick_mark {
+	margin-top: 10px;
+	width: 208px;
+	padding: 0;
+	cursor: pointer;
+	background-color: #fff;
+	zoom: 1
+}
+
+.b_quick_nav .left_menu .quick_mark .icon {
+	width: 106px;
+	height: 106px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.quick_mark .icon img {
+	vertical-align: bottom
+}
+
+.b_quick_nav .left_menu .quick_mark .txt {
+	color: #999;
+	font-size: 12px;
+	text-align: center;
+	line-height: normal;
+	margin-top: 5px
+}
+
+.b_quick_nav .right_cont {
+	position: absolute;
+	top: -400px;
+	left: 208px;
+	z-index: 3;
+	width: 748px;
+	height: 399px;
+	background-color: #fff;
+	border: solid 1px #1badb6;
+	border-top: 0;
+	font-size: 12px;
+	line-height: 1.5;
+	overflow: hidden
+}
+
+.b_quick_nav .right_cont .month_hot {
+	position: relative;
+	height: 399px
+}
+
+.b_quick_nav .month_hot img {
+	vertical-align: bottom
+}
+
+.b_quick_nav .month_hot .top {
+	padding: 20px 0 0;
+	height: 240px
+}
+
+.b_quick_nav .month_hot .item {
+	float: left;
+	width: 320px;
+	padding-left: 34px
+}
+
+.month_hot .item .pic {
+	position: relative;
+	height: 150px;
+	width: 100%;
+	font-family: "microsoft yahei", tahoma, sans-serif
+}
+
+.month_hot .pic .month {
+	position: absolute;
+	top: -6px;
+	right: 13px;
+	width: 57px;
+	height: 55px;
+	padding-right: 3px;
+	background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/pre_next.png")
+		no-repeat -100px 0;
+	_background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/nav_mix2.png")
+		no-repeat -240px 0;
+	color: #fff;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center
+}
+
+.month_hot .pic .tit,.abroad .pic .tit {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+	background:
+		url("//source.qunarzz.com/site/images/travel/home/v14/tit_bg.png")
+		repeat-x 0 0;
+	_background-color: #000;
+	_filter: alpha(Opacity = 50);
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	text-indent: 16px
+}
+
+.month_hot .pic .tit .place {
+	font-size: 18px;
+	margin-right: 10px
+}
+
+.month_hot .top .txt_box {
+	height: 82px;
+	padding: 6px 0 0 15px;
+	border: solid 1px #f0efee;
+	background-color: #fafafa;
+	color: #666;
+	line-height: 24px
+}
+
+.month_hot .top .txt_box li {
+	height: 24px;
+	overflow: hidden
+}
+
+.month_hot .top .txt_box a:link,.month_hot .top .txt_box a:visited {
+	color: #0084bb
+}
+
+.month_hot .top .txt_box a:hover,.month_hot .top .txt_box a:active {
+	color: #3cb0d0
+}
+
+.month_hot .btm {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden
+}
+
+.b_quick_nav .inland .txt_links {
+	position: relative;
+	padding-top: 9px;
+	height: 390px
+}
+
+.b_quick_nav .inland .txt_links .all_place {
+	position: absolute;
+	bottom: 12px;
+	right: 20px;
+	color: #0084bb
+}
+
+.b_quick_nav .inland .txt_links .all_place:hover {
+	color: #f60
+}
+
+.b_quick_nav .right_cont .txt_links {
+	line-height: 20px;
+	font-family: tahoma, arial, sans-serif
+}
+
+.b_quick_nav .txt_links dl {
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 0
+}
+
+.b_quick_nav .txt_links dt {
+	float: left;
+	width: 80px;
+	color: #17bac1;
+	text-align: right
+}
+
+.b_quick_nav .txt_links dt a {
+	float: none;
+	padding: 0;
+	color: #17bac1
+}
+
+.b_quick_nav .txt_links dt a:link,.b_quick_nav .txt_links dt a:visited,.b_quick_nav .txt_links dt a:hover,.b_quick_nav .txt_links dt a:active
+	{
+	color: #17bac1
+}
+
+.b_quick_nav .txt_links dd {
+	margin-left: 85px
+}
+
+.b_quick_nav .txt_links a {
+	float: left;
+	display: inline;
+	margin: 0 8px 0 7px;
+	color: #666;
+	white-space: nowrap
+}
+
+.b_quick_nav .txt_links a:link,.b_quick_nav .txt_links a:visited {
+	color: #666
+}
+
+.b_quick_nav .txt_links a:hover,.b_quick_nav .txt_links a:active {
+	color: #3cb0d0
+}
+
+.b_quick_nav .txt_links .high:link,.b_quick_nav .txt_links .high:visited,.b_quick_nav .txt_links .high:hover,.b_quick_nav .txt_links .high:active
+	{
+	color: #f60
+}
+
+.b_quick_nav .txt_links .line {
+	color: #ccc;
+	float: left;
+	display: inline
+}
+
+.b_quick_nav .abroad .pic {
+	position: relative;
+	float: left;
+	width: 210px;
+	height: 110px;
+	overflow: hidden;
+	margin-left: 21px;
+	_display: inline
+}
+
+.abroad .top {
+	height: 110px;
+	overflow: hidden;
+	padding: 20px 0 12px 14px
+}
+
+.abroad .pic .tit {
+	font-size: 18px;
+	text-align: center;
+	text-indent: 0
+}
+
+.b_quick_nav .around {
+	width: 100%;
+	height: 100%
+}
+
+.b_quick_nav .around .cont {
+	padding: 0 10px
+}
+
+.b_quick_nav .around .item {
+	_display: inline;
+	float: left;
+	width: 320px;
+	overflow: hidden;
+	margin: 24px 20px 0
+}
+
+.around .item .tit {
+	padding: 0 0 9px;
+	border-bottom: solid 1px #ebebeb;
+	color: #17bac1;
+	font-size: 16px;
+	line-height: 18px
+}
+
+.around .item .tit a:link,.around .item .tit a:visited {
+	color: #17bac1
+}
+
+.around .item .tit .all {
+	float: right;
+	color: #999;
+	font-size: 12px
+}
+
+.around .item .tit .all:link,.around .item .tit .all:visited {
+	color: #999
+}
+
+.around .item .links {
+	clear: both;
+	overflow: hidden;
+	width: 339px;
+	padding: 3px 0 0;
+	line-height: 24px
+}
+
+.around .item .links a {
+	float: left;
+	white-space: nowrap;
+	margin-right: 18px
+}
+
+.around .item .links a:link,.around .item .links a:visited {
+	color: #666
+}
+
+.around .item .theme {
+	color: #999;
+	line-height: 24px
+}
+
+.around .item .theme a,.around .item .theme .line,.around .item .theme .label
+	{
+	float: left
+}
+
+.around .item .theme a:link,.around .item .theme a:visited {
+	color: #999
+}
+
+.around .item .theme a:hover,.around .item .theme a:active,.around .item .links a:hover,.around .item .links a:active
+	{
+	color: #3cb0d0
+}
+
+.around .item .theme .line {
+	margin: 0 8px 0 6px
+}
+
+.around .item .links .a1:link,.around .item .links .a1:visited,.around .item .theme .a1:link,.around .item .theme .a1:visited
+	{
+	color: #3cb0d0
+}
+
+.around .item .links .a2:link,.around .item .links .a2:visited,.around .item .theme .a2:link,.around .item .theme .a2:visited
+	{
+	color: #f60
+}
+
+.travler {
+	padding-left: 1px
+}
+
+.travler .main_img img {
+	width: 748px;
+	height: 399px
+}
+
+@media screen and (max-width:1221px) {
+	.b_quick_nav {
+		width: 956px
+	}
+}
+
+.b_slide_mini .b_quick_nav {
+	width: 956px
+}
+
+.qn_tool {
+	display: none;
+	position: fixed;
+	bottom: 40px;
+	left: 50%;
+	margin-left: 600px;
+	width: 50px;
+	height: 110px;
+	z-index: 1000
+}
+
+.qn_tool .weixin {
+	position: relative;
+	margin: 10px auto;
+	width: 40px;
+	height: 40px;
+	cursor: pointer
+}
+
+.qn_tool .to_top {
+	margin: 10px auto;
+	background:
+		url(//source.qunarzz.com/site/images/travel/place/list_icon.png)
+		-416px 4px no-repeat;
+	background-color: #b3b3b3;
+	width: 40px;
+	height: 40px;
+	cursor: pointer
+}
+
+.qn_tool .to_top:hover {
+	margin: 10px auto;
+	background:
+		url(//source.qunarzz.com/site/images/travel/place/list_icon.png)
+		-536px 4px no-repeat;
+	background-color: #4c4c4c;
+	width: 40px;
+	height: 40px;
+	cursor: pointer
+}
+
+.qn_tool .weixin .erweima {
+	position: relative;
+	display: block;
+	background:
+		url(//source.qunarzz.com/site/images/travel/place/list_icon.png)
+		-296px 4px no-repeat;
+	background-color: #808080;
+	width: 40px;
+	height: 40px;
+	overflow: hidden
+}
+
+.qn_tool .weixin .erweima:hover {
+	position: relative;
+	background:
+		url(//source.qunarzz.com/site/images/travel/place/list_icon.png)
+		-476px 4px no-repeat;
+	background-color: #4d4d4d;
+	cursor: pointer;
+	overflow: visible
+}
+
+.qn_tool .weixin .erweima img {
+	position: absolute;
+	top: -19px;
+	left: -161px;
+	width: 131px;
+	height: 131px;
+	cursor: pointer;
+	padding: 15px;
+	background-color: #fff
+}
+
+.qn_tool .weixin .erweima:hover img {
+	display: block
+}
+
+@media screen and (max-width:1310px) and (min-width:1222px) {
+	.qn_tool {
+		margin-left: 0;
+		left: auto;
+		right: 0;
+		bottom: 40px
+	}
+}
+
+@media screen and (max-width:1222px)and (min-width:1069px) {
+	.qn_tool {
+		margin-left: 478px;
+		left: 50%;
+		bottom: 40px
+	}
+}
+
+@media screen and (max-width:1069px) {
+	.qn_tool {
+		margin-left: 0;
+		left: auto;
+		right: 0;
+		bottom: 40px
+	}
+}
+
+.w956 .qn_tool {
+	margin-left: 478px;
+	left: 50%;
+	bottom: 40px;
+	_margin-left: 478px
+}
+
+.dlg_mask {
+	background: #000;
+	filter: alpha(opacity = 50);
+	-ms-filter: alpha(opacity = 50);
+	width: 100%;
+	height: 100%;
+	_height: 3000px;
+	opacity: .5;
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_overflow: hidden
+}
+
+.dlg_mask .dlg_miframe {
+	width: 100%;
+	height: 100%;
+	_height: 3000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	filter: alpha(opacity = 0);
+	-ms-filter: alpha(opacity = 0)
+}
+
+.dlg_dialog {
+	position: absolute;
+	z-index: 1000
+}
+
+.dlg_dialog .dlg_shd {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 1px 6px 36px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 6px 36px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 6px 36px rgba(0, 0, 0, 0.5)
+}
+
+.dlg_dialog .dlg_box {
+	position: relative;
+	z-index: 2;
+	border: 1px solid #000;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	height: 1%;
+	_float: left
+}
+
+.dlg_dialog .dlg_box_opacity {
+	position: relative;
+	z-index: 2;
+	border: 10px solid rgba(0, 0, 0, .6);
+	border: 2px solid #000\0;
+	*border: 2px solid #000;
+	_border: 2px solid #000
+}
+
+.dlg_dialog .dlg_title {
+	height: 20px;
+	padding: 10px 0;
+	padding-left: 10px;
+	font-size: 14px;
+	background: #FFF;
+	font-weight: bold
+}
+
+.dlg_dialog .dlg_content {
+	font-size: 12px;
+	background-color: #fff;
+	width: auto;
+	overflow: visible;
+	_float: left
+}
+
+.dlg_dialog .dlg_close {
+	position: absolute;
+	top: -12px;
+	right: -12px;
+	z-index: 4;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("//source.qunarzz.com/site/images/travel/map_icon.png")
+		no-repeat scroll 0 0 transparent;
+	text-indent: -3000px;
+	overflow: hidden
+}
+
+.dlg_dialog .dlg_close_black {
+	background:
+		url("//source.qunarzz.com/site/images/travel/raider/cl_close_btn.png")
+		repeat scroll 0 0 transparent;
+	display: block;
+	width: 31px;
+	height: 33px;
+	overflow: hidden;
+	position: absolute;
+	right: -12px;
+	text-indent: -3000px;
+	top: -12px;
+	z-index: 4
+}
+
+.dlg-iframebd {
+	border: 0;
+	width: 100%
+}
+
+.PlaceHolder {
+	padding-top: 5px;
+	padding-left: 6px;
+	font-size: 14px;
+	color: #ccc
+}
+
+.g_mask_body {
+	position: fixed;
+	overflow-y: scroll;
+	width: 100%;
+	_background-image: url(about:blank);
+	_background-attachment: fixed
+}
+
+.g_dlg_box {
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: auto;
+	_position: absolute
+}
+
+.g_dlg_wrap_css3 {
+	-moz-transition: top 400ms ease-out, opacity 200ms, height 300ms
+		ease-out;
+	-webkit-transition: top 400ms ease-out, opacity 200ms, height 300ms
+		ease-out;
+	-ms-transition: top 400ms ease-out, opacity 200ms, height 300ms ease-out;
+	-o-transition: top 400ms ease-out, opacity 200ms, height 300ms ease-out;
+	transition: top 400ms ease-out, opacity 200ms, height 300ms ease-out
+}
+
+.pop_msg {
+	background:
+		url(//source.qunarzz.com/site/images/travel/plan/media/pop_msg.png);
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="//source.qunarzz.com/site/images/travel/plan/media/pop_msg.png",
+		sizingMethod="scale");
+	padding: 10px;
+	width: 355px;
+	height: 50px
+}
+
+.pop_msg table {
+	width: 100%;
+	height: 100%
+}
+
+.pop_msg td {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.6
+}
+
+.q_top_down {
+	text-align: center
+}
+
+.lock_screen_dialog .btn_close {
+	background:
+		url(//source.qunarzz.com/site/images/travel/place/icon_close_02.gif)
+		no-repeat 0 0;
+	display: block;
+	text-indent: -9999px;
+	font: normal 18px/32px Verdana, arial, sans-serif;
+	color: #555;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	right: -32px;
+	border-radius: 0
+}
+
+.zhuan_link {
+	height: 200px;
+	overflow: hidden
+}
+
+.li_link {
+	float: left;
+	margin-top: 30px;
+	margin-right: 20px;
+	width: 220px;
+	height: 70px;
+	overflow: hidden;
+	line-height: 23px
+}
+
+.li_link img {
+	margin-top: 2px
+}
+
+.li_link a {
+	cursor: pointer
+}
+
+.other_link {
+	width: 110px;
+	margin-left: 10px
+}
+
+.link_tit {
+	color: #555;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 2px;
+	line-height: 18px
+}
+
+.detail {
+	color: #999;
+	line-height: 16px
+}
+
+.list_p {
+	margin-top: 30px;
+	margin-left: -20px;
+	height: 60px;
+	overflow: hidden
+}
+
+.li_p {
+	float: left;
+	margin-left: 20px
+}
+
+.li_p .img_p {
+	display: block;
+	width: 90px;
+	height: 60px
+}
+
+.left_float_screen a {
+	display: block;
+	text-align: right
+}
+
+.float_screen a {
+	display: block;
+	text-align: left
+}
+
+.left_float_screen a:hover .btn_clo,.float_screen a:hover .btn_clo {
+	visibility: visible
+}
+
+.left_float_screen .btn_clo,.float_screen .btn_clo {
+	display: inline-block;
+	visibility: hidden;
+	width: 19px;
+	height: 19px;
+	line-height: 16px;
+	background-color: #f0f0f0;
+	color: #666;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 10px
+}
+
+.left_float_screen .btn_clo {
+	float: right
+}
+
+.left_float_screen {
+	position: absolute;
+	z-index: 1000;
+	left: 50%;
+	top: 650px;
+	width: 60px;
+	margin-left: -660px;
+	overflow: hidden
+}
+
+.float_screen {
+	position: absolute;
+	z-index: 1000;
+	left: 50%;
+	top: 650px;
+	right: -50px;
+	width: 60px;
+	margin-left: 600px;
+	overflow: hidden
+}
+
+.img_wrap {
+	width: 1200px;
+	overflow: hidden
+}
+
+@media screen and (max-width:1221px) {
+	.wrap,.img_wrap {
+		width: 956px
+	}
+	.float_screen {
+		margin-left: 480px;
+		top: 125px
+	}
+	.left_float_screen {
+		margin-left: -538px;
+		top: 125px
+	}
+	.li_link {
+		width: 198px
+	}
+	.other_link {
+		width: 88px
+	}
+}
+
+.w956 .wrap,.w956 .img_wrap {
+	width: 956px
+}
+
+.w956 .float_screen {
+	margin-left: 480px;
+	top: 125px
+}
+
+.w956 .left_float_screen {
+	margin-left: -538px;
+	top: 125px
+}
+
+.w956 .li_link {
+	margin-right: 39px
+}
+
+.w956 .other_link {
+	margin-left: 9px
+}
+
+.qunar_link .qunar_link_224 {
+	width: 224px;
+	background-color: #fdfdfd;
+	margin-top: 30px;
+	padding: 0
+}
+
+.qunar_link .hd {
+	color: #333;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 0;
+	margin-bottom: 8px;
+	font-family: "microsoft yahei", arial;
+	font-weight: normal
+}
+
+.qunar_link .ct {
+	overflow: hidden;
+	zoom: 1
+}
+
+.qunar_link .ct .item {
+	float: left;
+	display: inline;
+	width: 224px;
+	padding: 15px 0;
+	border-top: 0
+}
+
+.qunar_link .imgbox {
+	float: left;
+	display: inline;
+	margin-right: 10px;
+	width: 100px
+}
+
+.qunar_link .infobox {
+	line-height: 16px;
+	float: left;
+	display: inline;
+	width: 114px;
+	word-break: break-all;
+	word-wrap: break-word
+}
+
+.qunar_link .infobox h3 {
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-size: 14px;
+	color: #666;
+	margin: 0 0 3px
+}
+
+.qunar_link .infobox a:hover {
+	color: #f60
+}
+
+.qunar_link .infobox h3 a {
+	color: #666;
+	font-weight: normal;
+	font-size: 14px;
+	margin: 0
+}
+
+.qunar_link .infobox p a {
+	color: #999;
+	line-height: 22px
+}
+
+.qunar_link .more {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: tahoma, arial;
+	float: right;
+	line-height: 18px
+}
