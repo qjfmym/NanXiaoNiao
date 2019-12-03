@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="CategoryService" class="com.itheima.serviceImpl.CategoryServiceImpl" />
+	<bean id="CommentService" class="com.itheima.serviceImpl.CommentServiceImpl" />
+	<bean id="RouteService" class="com.itheima.serviceImpl.RouteServiceImpl" />
+	<bean id="IndexService" class="com.itheima.serviceImpl.IndexServiceImpl" />
+	<bean id="FavoriteService" class="com.itheima.serviceImpl.FavoriteServiceImpl"/>
+    <bean id="UserService" class="com.itheima.serviceImpl.UserServiceImpl"/>
+    <bean id="AdminService" class="com.itheima.serviceImpl.AdminServiceImpl"/>
+
+    <bean id="UserDao" class="com.itheima.daoImpl.UserDaoImpl"/>
+	<bean id="IndexDao" class="com.itheima.daoImpl.IndexDaoImpl" />
+	<bean id="CategoryDao" class="com.itheima.daoImpl.CategoryDaoImpl" />
+	<bean id="CommentDao" class="com.itheima.daoImpl.CommentDaoImpl" />
+	<bean id="RouteDao" class="com.itheima.daoImpl.RouteDaoImpl" />
+  	<bean id="FavoriteDao" class="com.itheima.daoImpl.FavoriteDaoImpl"/>
+  	<bean id="AdminDao" class="com.itheima.daoImpl.AdminDaoImpl"/>
+</beans>
